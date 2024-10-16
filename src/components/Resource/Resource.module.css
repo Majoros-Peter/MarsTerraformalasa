@@ -1,0 +1,35 @@
+.ResourceContainer {
+    background-color: var(--cinereous);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+
+    p {
+        font-size: 2rem;
+    }
+
+    span {
+        font-weight: 700;
+    }
+
+    .buttonContainer {
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            width: 100px;
+            height: 50px;
+            border: none;
+            border-radius: 10px;
+            background-color: var(--tiffany-blue);
+            font-size: 2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color .3s ease;
+
+            &:hover {
+                background-color: var(--hunyadi-yellow);
+            }
+        }
+    }
+}
